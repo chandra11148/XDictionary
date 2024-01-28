@@ -16,7 +16,7 @@ function App() {
     if(foundWord){
       setResult(foundWord.meaning);
     }else{
-      setResult("Word not found in the dictionary");
+      setResult("Word not found in the dictionary.");
     }
   }
 
