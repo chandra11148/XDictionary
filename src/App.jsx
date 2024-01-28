@@ -12,7 +12,7 @@ function App() {
   ];
 
   const findWord=()=>{
-    const foundWord = customDict.find((obj)=>search==obj.word.toLowerCase());
+    const foundWord = customDict.find((obj)=>search.toLowerCase()==obj.word.toLowerCase());
     if(foundWord){
       setResult(foundWord.meaning);
     }else{
